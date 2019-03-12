@@ -8,10 +8,10 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 20px;
+  font-size: 15px;
 }
 p.small {
-  font-size: 16px;
+  font-size: 11px;
 }
 a,
 a:hover,
@@ -87,6 +87,14 @@ header .intro-text .name {
   font-weight: 700;
   font-size: 2em;
 }
+
+header .intro-text .greet {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
@@ -98,6 +106,9 @@ header .intro-text .skills {
   }
   header .intro-text .name {
     font-size: 4.75em;
+  }
+  header .intro-text .greet {
+    font-size: 1.75em;
   }
   header .intro-text .skills {
     font-size: 1.75em;
@@ -369,44 +380,7 @@ fieldset[disabled] .btn-primary.active {
   color: #2C3E50;
   background-color: white;
 }
-.btn-success {
-  color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
-  font-weight: 700;
-}
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
-  color: white;
-  background-color: #128f76;
-  border-color: #11866f;
-}
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
-  background-image: none;
-}
-.btn-success.disabled,
-.btn-success[disabled],
-fieldset[disabled] .btn-success,
-.btn-success.disabled:hover,
-.btn-success[disabled]:hover,
-fieldset[disabled] .btn-success:hover,
-.btn-success.disabled:focus,
-.btn-success[disabled]:focus,
-fieldset[disabled] .btn-success:focus,
-.btn-success.disabled:active,
-.btn-success[disabled]:active,
-fieldset[disabled] .btn-success:active,
-.btn-success.disabled.active,
-.btn-success[disabled].active,
-fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
-}
+
 .btn-success .badge {
   color: #18BC9C;
   background-color: white;
